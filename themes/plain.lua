@@ -1,10 +1,10 @@
 local lexers = vis.lexers
 
-lexers.STYLE_DEFAULT = ''
+lexers.STYLE_DEFAULT = 'back:black,fore:white'
 lexers.STYLE_NOTHING = ''
 lexers.STYLE_ATTRIBUTE = ''
 lexers.STYLE_CLASS = ''
-lexers.STYLE_COMMENT = ''
+lexers.STYLE_COMMENT = 'italics'
 lexers.STYLE_CONSTANT = ''
 lexers.STYLE_DEFINITION = ''
 lexers.STYLE_ERROR = ''
@@ -26,7 +26,7 @@ lexers.STYLE_IDENTIFIER = ''
 
 lexers.STYLE_LINENUMBER = ''
 lexers.STYLE_LINENUMBER_CURSOR = lexers.STYLE_LINENUMBER
-lexers.STYLE_CURSOR = 'back:white,fore:black'
+lexers.STYLE_CURSOR = 'reverse'
 lexers.STYLE_CURSOR_PRIMARY = lexers.STYLE_CURSOR..',back:yellow'
 lexers.STYLE_CURSOR_LINE = ''
 lexers.STYLE_COLOR_COLUMN = 'back:red'
