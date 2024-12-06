@@ -26,11 +26,11 @@ lexers.STYLE_IDENTIFIER = ''
 
 lexers.STYLE_LINENUMBER = ''
 lexers.STYLE_LINENUMBER_CURSOR = lexers.STYLE_LINENUMBER
-lexers.STYLE_CURSOR = 'reverse'
+lexers.STYLE_CURSOR = 'back:white,fore:black'
 lexers.STYLE_CURSOR_PRIMARY = lexers.STYLE_CURSOR..',back:yellow'
 lexers.STYLE_CURSOR_LINE = ''
 lexers.STYLE_COLOR_COLUMN = 'back:red'
-lexers.STYLE_SELECTION = 'reverse'
+lexers.STYLE_SELECTION = 'back:white,fore:black'
 lexers.STYLE_STATUS = ''
 lexers.STYLE_STATUS_FOCUSED = 'reverse'
 lexers.STYLE_SEPARATOR = lexers.STYLE_DEFAULT
